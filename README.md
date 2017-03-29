@@ -11,5 +11,6 @@ Since Azure charges Virtual Machines for every hour it is running, stopping thes
 All you have to do is schedule the script in Azure Automation and add a tag to your VM like below with the deisred time
 
 VMStartTimeinUTC : 09:00
+
 ShutdownTimeinUTC : 20:00
 
