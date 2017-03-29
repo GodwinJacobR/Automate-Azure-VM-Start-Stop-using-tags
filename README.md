@@ -4,7 +4,7 @@ This Power shell script can be used to start/stop your Azure Virtual Machines by
 
 This particular script can be scheduled using Azure Automation , a service provided by Azure for scheduling jobs.
 
-Consider you have a huge development / non-production workload running on Azure, it is best to stop your non-critical Virtual Machines during non-business hours. 
+Consider you have a huge development / non-production workload running on Azure, it is always best to stop your non-critical Virtual Machines during non-business hours. 
 
 Since Azure charges Virtual Machines for every hour it is running, stopping these VMs during non-business hours can save huge money.
 
