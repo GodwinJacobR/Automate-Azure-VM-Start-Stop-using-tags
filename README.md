@@ -8,3 +8,8 @@ Consider you have a huge development / non-production workload running on Azure,
 
 Since Azure charges Virtual Machines for every hour it is running, stopping these VMs during non-business hours can save huge money.
 
+All you have to do is schedule the script in Azure Automation and add a tag to your VM like below with the deisred time
+
+VMStartTimeinUTC : 09:00
+ShutdownTimeinUTC : 20:00
+
